@@ -8,6 +8,12 @@
 
 > **An open-source AI home assistant that can see you, hear you, and help you with anything — room by room.**
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/9c174ef7-c363-4122-a212-2fffc3c5c515">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/f1a5fe65-339a-4f74-b0fc-78669dc42ed9">
+  <img alt="Ultrax banner" width="1200" height="300" src="https://github.com/user-attachments/assets/0ad88dba-d0b7-46ee-bc96-26851f41fe48">
+</picture>
+
 Each room gets its own ESP32-S3 node (camera, mic, speaker). All nodes talk to a central hub (Raspberry Pi 5 or another ESP32), which runs or forwards to [OpenClaw](https://github.com/) — the gateway that connects everything to an AI model, local or cloud.
 
 ---
